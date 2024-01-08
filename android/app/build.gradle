@@ -27,6 +27,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "com.example.test_clima_flutter"
+    compileSdkVersion 33
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
